@@ -1,0 +1,21 @@
+entries:
+    - path: knowledge/ghg-protocol-scope3-categories.md
+      tags: []
+      priority: medium
+      always_load: false
+    - path: knowledge/esrs-e1-datapoint-map.md
+      tags: []
+      priority: medium
+      always_load: false
+    - path: knowledge/sec-climate-disclosure-structure.md
+      tags: []
+      priority: medium
+      always_load: false
+    - path: knowledge/epa-egrid-defra-methodology.md
+      tags: []
+      priority: medium
+      always_load: false
+    - path: knowledge/evidence-classification-taxonomy.md
+      tags: []
+      priority: medium
+      always_load: false

@@ -1,0 +1,27 @@
+spec_version: 0.1.0
+name: esg-compliance-copilot
+version: 1.0.0
+description: Controlled compliance copilot for GHG accounting and CSRD/SEC climate disclosure — ingests activity data, classifies GHG scope, matches emission factors, drives all arithmetic through a deterministic calculation tool, validates data quality, reviews sustainability claims for greenwashing risk, compiles gated disclosure dossiers, and traces full audit lineage for every figure.
+model:
+    preferred: anthropic:claude-sonnet-4-6
+    fallback: []
+    constraints:
+        maxTokens: 8192
+        temperature: 0.7
+tools:
+    - cli
+    - read
+    - write
+    - memory
+skills:
+    - ingest-normalize-activity-data
+    - classify-ghg-scope
+    - match-emission-factor
+    - deterministic-emissions-calc
+    - validate-data-quality
+    - greenwashing-claim-review
+    - compile-disclosure-dossier
+    - trace-audit-lineage
+runtime:
+    max_turns: 30
+    timeout: 120
