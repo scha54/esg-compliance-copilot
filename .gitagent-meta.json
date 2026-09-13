@@ -1,7 +1,7 @@
 {
-  "description": "Controlled compliance copilot for GHG accounting and CSRD/SEC climate disclosure — ingests activity data, classifies GHG scope, matches emission factors, drives all arithmetic through a deterministic calculation tool, validates data quality, reviews sustainability claims for greenwashing risk, compiles gated disclosure dossiers, and traces full audit lineage for every figure.",
-  "github_url": null,
+  "description": "Controlled compliance copilot for GHG accounting and CSRD/SEC climate disclosure \u2014 ingests activity data, classifies GHG scope, matches emission factors, drives all arithmetic through a deterministic calculation tool, validates data quality, reviews sustainability claims for greenwashing risk, compiles gated disclosure dossiers, and traces full audit lineage for every figure.",
+  "github_url": "https://github.com/scha54/esg-compliance-copilot",
   "name": "ESG Compliance Copilot",
-  "pending_publish": true,
+  "pending_publish": false,
   "slug": "esg-compliance-copilot"
 }
